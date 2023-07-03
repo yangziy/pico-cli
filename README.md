@@ -6,7 +6,9 @@ This is used to remotely power my desktop on/off via a Raspberry Pi.
 
 ```Pi <-[USB]----[MicroUSB]-> Pico <-[GPIO PINS]----[PINS]-> ATX adapter A <---[Short Ethernet Cable]---> ATX adapter B (Installed in computer case) <-[PINS]----[PINS]-> Desktop motherboard```
 
-In this configuration, the Pico board essentially serves as a GPIO expander.
+In this configuration, the Pico board essentially serves as a GPIO expander for the Pi.
+
+**Note:** For whoever has a similar use case, check [picod](http://abyz.me.uk/picod/).
 
 # Reference
 
